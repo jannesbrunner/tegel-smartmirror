@@ -1,5 +1,7 @@
 # Tegel Smart Mirror Project
 
+## Vue Documentation
+[Vue2 Guide](https://vuejs.org/v2/guide/index.html)
 ## Project setup
 ```
 yarn install
