@@ -1,17 +1,26 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VBB msg="This is VBB placeholder"/>
+    <Clock msg="This is Clock placeholder"/>
+    <Flatastic msg="This is Flatastic placeholder"/>
+    <Calendar msg="This is Calendar placeholder"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VBB from './components/VBB.vue'
+import Clock from './components/Clock.vue'
+import Flatastic from './components/Flatastic.vue'
+import Calendar from './components/Calendar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VBB,
+    Clock,
+    Flatastic,
+    Calendar
   }
 }
 </script>
